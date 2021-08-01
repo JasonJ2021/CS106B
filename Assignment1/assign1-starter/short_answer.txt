@@ -1,0 +1,63 @@
+Before submitting this file, make sure that there are no more TODO
+placeholders remaining in the file (and remove this comment too).
+
+Perfect Numbers
+---------------
+
+Q1. How many numbers does the program search through? How many perfect numbers does it find? What are these perfect numbers?
+A1: TODO
+
+Q2. Record the timing results for `findPerfects` into a table.
+A2: 
+Search Size: 20000  Runtime: TODO
+Search Size: 40000  Runtime: TODO
+Search Size: 80000  Runtime: TODO
+Search Size: 160000 Runtime: TODO
+Search Size: 320000 Runtime: TODO
+Search Size: 640000 Runtime: TODO
+
+Q3. Does it take the same amount of effort to compute `isPerfect` on the number 10 as it does on the number 1000? Why or why not? Does it take the same amount of work for `findPerfects` to search the range of numbers from 1-1000 as it does to search the numbers from 1000-2000? Why or why not?
+A3: TODO
+
+Q4. Extrapolate from the data you gathered and make a prediction: how long will it take `findPerfects` to reach the fifth perfect number?
+A4: TODO
+
+Q5. Do any of the tests still pass even with this broken function? Why or why not?
+A5: TODO
+
+Q6. Can the test framework detect that the test case is "bogus", in the sense that the premise of the test case itself is off-base?
+A6: TODO
+
+Q7. Describe the testing strategy your used for your test cases to confirm `smarterSum` is working correctly.
+A7: TODO
+
+Q8. Record your timing results for `findPerfectsSmarter` into a table.
+A8: 
+Search Size: 20000  Runtime: TODO
+Search Size: 40000  Runtime: TODO
+Search Size: 80000  Runtime: TODO
+Search Size: 160000 Runtime: TODO
+Search Size: 320000 Runtime: TODO
+Search Size: 640000 Runtime: TODO
+
+Q9. Make a prediction: how long will `findPerfectsSmarter` take to reach the fifth perfect number?
+A9: TODO
+
+Q10. Explain how you chose your specific test cases and why they lead you to be confident `findNthPerfectEuclid` is working correctly.
+A10: TODO
+
+
+Soundex
+-------
+
+Q11. What is the Soundex code for "Angelou"? What is the code for your own surname?
+A11: TODO
+
+Q12. Before writing any code, brainstorm your plan of attack and sketch how you might decompose the work into smaller tasks. Briefly describe your decomposition strategy.
+A12: TODO
+
+Q13. Think about one or more examples of a class of names that the Soundex system might not work well for. Explain what this class of names is and why the system might incorrectly group them or mis-categorize one of the names.
+A13: TODO
+
+Q14. Suppose you are a software engineer working for the U.S. government. You have been tasked with implementing a system that collects names as part of the Census survey and analyzes these names using a phonetic algorithm. Your boss suggests using Soundex and notes that your algorithm is only expected to work for ASCII-encoded strings, since supporting Unicode would require extra work and time. What would your response be and why? What representational harms might result from building a system that exclusively uses Soundex and/or ASCII?
+A14: TODO
